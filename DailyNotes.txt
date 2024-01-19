@@ -1,0 +1,146 @@
+Spring Framwork:
+===============
+
+framework:readymade template
+
+spring is non-invasive framework and which is used to create light weight and loosley coupled applications
+
+
+
+		
+		invasive :even though its a framework it will force to the developer to implement predefined API
+			
+				struts,JSF,EJB,Servlets.....
+
+
+		
+		non-invasive :it will never force to the developer to implement predefined API
+		
+				spring,hibernate
+
+Servlets
+
+
+	web applications ---servlets
+	
+	implements Servlet
+	extends GenericServlet
+	extends HttpServlet 
+	
+	
+	100*12 
+	class login implements Servlet/GenericServlet/HttpServlet 12 methods
+	{
+	
+	//12 methods
+	
+	
+	}
+	
+	
+	
+	EJB
+	
+	loosley coupled
+	
+	
+	
+	class A
+	{
+	public void m1(){
+		b.m2();s
+	
+	}
+	
+	}
+	
+	class B
+	{
+	
+	public B(String name)
+	{
+	
+	}
+	public void m2()
+	{
+	
+	}
+	
+	}
+	
+	
+	no object creation
+	
+	
+	IOC/Dependency injection module /spring core 
+	
+	
+	
+	container --> 2 
+	
+			BeanFactory
+			ApplicationContext
+		
+		
+life cycle of a object 
+			1)object creation
+			2)wiring the objects
+			3)configuring the objects
+			4) destroy the object 
+		
+spring core:
+=============		
+			rod johnson-->interface21 
+		
+		  1.x 20003
+		  6.x version
+		
+		jars
+		
+					beanFacotry
+		
+		
+		configuration
+				
+				1)xml 
+				
+				2)annotation
+		
+				3)java 
+		
+		setter injection	<property>
+		constructor injection	<constructor-arg>
+		
+		@Component/@Service/@Repository
+		@Autowired
+		@Scope
+		@Configuration
+		@ComponentScan
+		
+		
+		Note: spring has given applications for user defined classes but not predefined classes 
+				
+																		java config
+		@Bean
+		
+		JPA-->java persistance api
+		
+		
+		
+		jdbc 
+		
+		steps
+		querys
+		
+		
+		JPA -->API-->Specification
+		
+		
+			ORM-->Object relational mapping 
+	
+			hibernate,eclipselink,toplink,ibatis....
+			
+			
+			JPA-->HIbernate 
+			
+	
